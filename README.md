@@ -1,4 +1,3 @@
-# MO-GPR_data
 # README for Ground-Penetrating Radar (GPR) Data Set
 
 ## Overview
@@ -85,14 +84,13 @@ The `data` directory is organized as follows:
 
 ### Synthetic GPR Data
 
-The synthetic GPR data set was generated using the gprMax software, which simulates electromagnetic wave propagation using the Finite-Difference Time-Domain (FDTD) method. The data set includes multiple 2D profiles with varying offsets and frequencies, designed to test and evaluate processing, analysis, and inversion routines for GPR data.
+The synthetic GPR data set was generated using the [gprMax software](http://www.gprmax.com/), which simulates electromagnetic wave propagation using the Finite-Difference Time-Domain (FDTD) method. The data set includes multiple 2D profiles with varying offsets and frequencies, designed to test and evaluate processing, analysis, and inversion routines for GPR data.
 
 ### Acquisition Geometry
 
 For each of the four sections selected within the model, 161 shots and 161 receivers were used, covering different frequencies (50 MHz, 100 MHz, and 200 MHz). Detailed sketches and validation methods are provided within the Jupyter notebooks.
 
 ## Validation
-
 ### Technical Validation
 
 The synthetic data set has been tested to ensure stability and correctness using various commercial and open-source programs, including:
