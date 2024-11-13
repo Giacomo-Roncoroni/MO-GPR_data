@@ -1,0 +1,14 @@
+#title: 2D line across Herten Model  
+#domain: 18 0.05 7.8 
+#dx_dy_dz: 0.05 0.05 0.05 
+#time_window: 5.e-07 
+
+#geometry_objects_read:  0.0000 0.0000 0.0000 2-D_model/2D_model_50MHz_50mm_line2m.h5 2-D_model/3D_Full_model_res_25mm.med
+#waveform: ricker  1.0000 50000000.00 my_ricker 
+
+#hertzian_dipole: y 1 0 6.95 my_ricker
+#src_steps: 0.1 0 0
+ 
+#rx_array: 1 0 6.95 17.01 0 6.95 0.1 0 0
+
+#output_dir: 50MHz/
